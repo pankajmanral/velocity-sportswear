@@ -1,0 +1,68 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 100%;
+    max-width: 187px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 17px 0;
+}
+
+header .brand-logo {
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+header .nav-list {
+    display: flex;
+    align-items: center;
+}
+
+header .nav-item {
+    padding: 8px 0;
+    margin-right: 12px;
+}
+
+header .nav-item:last-child {
+    margin-right: 0;
+}
+
+header .nav-link {
+    text-decoration: none;
+    padding: 12px 16px;
+    color: var(--color-primary);
+    font-family: var(--font-regular);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19.2px;
+}
+
+header .nav-btn{
+    padding: 12px 24px;
+}
+
+header .join-btn{
+    background-color: var(--accent-color-pink);
+    color: var(--color-secondary);
+    border-color: var(--accent-color-pink);
+}
+
+@media (max-width:768px) {
+    header .nav-item{
+        display: none;
+    }
+}

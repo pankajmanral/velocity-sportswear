@@ -1,0 +1,34 @@
+.mobile-download{
+    background-color: #222831;
+    padding: 104px 0;
+}
+
+.mobile-download .mobile-download-wrapper{
+    display: flex;
+}
+
+.mobile-download .mobile-img-wrapper{
+    border: 1px solid red;
+    width: 100%;
+    max-width: 492px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-download .mobile-img{
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.mobile-download .mobile-download-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid red;
+    margin-left: 40px;
+}
