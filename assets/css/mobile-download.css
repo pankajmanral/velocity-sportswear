@@ -1,34 +1,111 @@
-.mobile-download{
+.mobile-download {
     background-color: #222831;
     padding: 104px 0;
 }
 
-.mobile-download .mobile-download-wrapper{
+.mobile-download .container {
     display: flex;
+    justify-content: center;
 }
 
-.mobile-download .mobile-img-wrapper{
-    border: 1px solid red;
+.mobile-download .mobile-download-wrapper {
+    display: flex;
     width: 100%;
+    max-width: 1024px;
+}
+
+.mobile-download .mobile-img-wrapper {
     max-width: 492px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.mobile-download .mobile-img{
+.mobile-download .mobile-img {
     height: auto;
     object-fit: cover;
     object-position: center;
     display: block;
 }
 
-.mobile-download .mobile-download-content{
+.mobile-download .mobile-download-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     width: 100%;
-    border: 1px solid red;
     margin-left: 40px;
+}
+
+.mobile-download .section-heading {
+    color: #EEE;
+    text-overflow: ellipsis;
+}
+
+.mobile-download .section-description {
+    color: #EEE;
+    text-overflow: ellipsis;
+}
+
+.mobile-download .download-options {
+    display: flex;
+}
+
+.mobile-download .store-link {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.mobile-download .store-img {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.mobile-download .store-link:last-child {
+    margin-left: 16px;
+}
+
+@media (max-width:946px) {
+
+    .mobile-download .download-options {
+        flex-direction: column;
+    }
+
+    .mobile-download .store-link:last-child {
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width:835px) {
+    .mobile-download .mobile-img-wrapper {
+        width: 100%;
+        max-width: 420px;
+    }
+}
+
+
+@media (max-width:769px) {
+    .mobile-download .mobile-download-wrapper {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-download .mobile-img-wrapper{
+        margin-bottom: 30px;
+    }
+
+    .mobile-download .mobile-download-content {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:526px) {
+    .mobile-download .mobile-img {
+        max-width: 276px;
+    }
 }

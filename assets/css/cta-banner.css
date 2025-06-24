@@ -4,10 +4,12 @@
     padding: 96px 0;
 }
 
+.cta-banner .container{
+    display: flex;
+    justify-content: center;
+}
+
 .cta-banner .cta-text-content {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     background-color: var(--bg-secondary);
     display: flex;
     flex-direction: column;
@@ -22,6 +24,7 @@
     color: #D1FAE5;
     font-family: var(--font-bold);
     margin-bottom: 12px;
+    text-align: center;
 }
 
 .cta-banner .cta-description {
