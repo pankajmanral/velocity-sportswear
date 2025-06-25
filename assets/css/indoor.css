@@ -1,0 +1,118 @@
+.indoor {
+    position: relative;
+    background-color: #ECFDF5;
+    padding: 120px 0;
+}
+
+.indoor .indoor-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 105px;
+}
+
+.indoor .indoor-left-content .indoor .indoor-right-content {
+    flex: 1;
+}
+
+.indoor .indoor-text-content {
+    width: 100%;
+    max-width: 524px;
+}
+
+.indoor .section-heading {
+    color: #064E3B;
+}
+
+.indoor .section-description {
+    color: #059669;
+}
+
+.see-collection-btn {
+    padding: 16px 97.5px;
+    color: var(--color-secondary);
+    background-color: #65A30D;
+    border-radius: 8px;
+    border-color: #ECFDF5;
+    font-size: 18px;
+}
+
+.see-collection-btn:hover {
+    border-color: var(--color-primary);
+}
+
+.indoor .indoor-right-content {
+    width: 100%;
+    background-color: #DCFCE7;
+    margin-left: 48px;
+    padding: 48px;
+    border-radius: 48px;
+}
+
+.indoor .indoor-card {
+    margin-bottom: 24px;
+}
+
+.indoor .indoor-card:last-child {
+    margin-bottom: 0;
+}
+
+.indoor .indoor-icon {
+    margin-bottom: 8px;
+}
+
+.indoor .card-title {
+    color: #064E3B;
+    text-overflow: ellipsis;
+    font-family: var(--font-regular);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    margin-bottom: 8px;
+}
+
+.indoor .card-description {
+    color: #059669;
+    text-overflow: ellipsis;
+    font-family: var(--font-regular);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+@media (max-width:1025px) {
+    .see-collection-btn {
+        padding: 16px 35.5px;
+    }
+}
+
+@media (max-width:835px) {
+    .indoor .indoor-wrapper {
+        padding: 0;
+    }
+}
+
+@media (max-width:789px) {
+    .indoor .indoor-wrapper {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .see-collection-btn {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .indoor .indoor-right-content {
+        padding: 0;
+        border-radius: 0;
+        margin-left: 0;
+    }
+
+    .indoor .indoor-card {
+        margin-bottom: 24px;
+        padding: 24px;
+    }
+
+
+}

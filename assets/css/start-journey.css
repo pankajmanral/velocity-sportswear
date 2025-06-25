@@ -1,0 +1,69 @@
+.start-journey {
+    position: relative;
+}
+
+.start-journey .journey-wrapper {
+    display: flex;
+}
+
+.start-journey .journey-img-wrapper,
+.start-journey .journey-content {
+   flex: 1;
+}
+
+
+.start-journey .journey-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: auto;
+}
+
+.start-journey .journey-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 58px;
+    background-color: #ECFDF5;
+}
+
+.start-journey .section-heading {
+    color: #40513B;
+}
+
+.start-journey .section-description {
+    color: #6C8F70;
+}
+
+.get-started-btn {
+    padding: 16px 129px;
+    background-color: #815CCE;
+    border-radius: 8px;
+    color: var(--color-secondary);
+    font-family: var(--font-regular);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    border: 1px solid #815CCE;
+}
+
+.get-started-btn:hover {
+    color: #40513B;
+    border-color: #40513B;
+}
+
+@media (max-width:836px) {
+    .start-journey .journey-content {
+        padding-left: 16px;
+    }
+}
+
+@media (max-width:769px) {
+    .start-journey .journey-wrapper {
+        flex-direction: column;
+    }
+
+    .get-started-btn{
+        margin-bottom: 53px;
+    }
+}
