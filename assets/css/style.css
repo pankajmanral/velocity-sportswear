@@ -132,9 +132,14 @@ table {
 :root {
 
     /* fonts */
-    --font-regular: 'Sans-Regular';
-    --font-medium: 'Sans-Medium';
-    --font-bold: 'Sans-Bold';
+
+    --sans-bold : 'WorkSans-Bold';
+    --sans-regular : 'WorkSans-Regular';
+
+    --inter-bold : 'Inter-Bold';
+    --inter-regular : 'Inter-Regular';
+
+    --syne-bold : 'Syne-Bold';
 
     /* font colors */
     --color-primary: #000000;
@@ -152,6 +157,8 @@ table {
 
 }
 
+
+
 .container {
     width: 100%;
     max-width: 1248px;
@@ -166,7 +173,7 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: var(--font-regular);
+    font-family: var(--inter-regular);
     border-radius: 4px;
     border: 1px solid var(--color-primary);
     cursor: pointer;
@@ -180,7 +187,6 @@ table {
 }
 
 .section-heading {
-    font-family: var(--font-bold);
     font-size: 51px;
     font-weight: 700;
     line-height: 61.2px;
@@ -189,7 +195,6 @@ table {
 }
 
 .section-description {
-    font-family: var(--font-medium);
     font-size: 18px;
     font-weight: 400;
     line-height: 25.2px;

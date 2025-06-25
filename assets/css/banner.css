@@ -25,7 +25,7 @@
 
 .banner .banner-heading {
     color: #222831;
-    font-family: var(--font-medium);
+    font-family: var(--inter-bold);
     font-size: 51px;
     font-weight: 700;
     line-height: 61.2px;
@@ -35,7 +35,7 @@
 
 .banner .banner-subheading {
     color: #818181;
-    font-family: var(--font-regular);
+    font-family: var(--inter-regular);
     font-size: 18px;
     font-weight: 400;
     line-height: 25.2px;

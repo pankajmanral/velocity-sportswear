@@ -9,8 +9,13 @@
     color: var(--color-primary);
 }
 
+.collection .section-heading{
+    font-family: var(--sans-bold);
+}
+
 .collection .section-description {
     color: #A8A29E;
+    font-family: var(--sans-regular);
 }
 
 .collection .collection-gallery {
@@ -38,7 +43,7 @@
 .collection .collection-heading {
     color: #1C1917;
     text-overflow: ellipsis;
-    font-family: var(--font-regular);
+    font-family: var(--sans-bold);
     font-size: 14px;
     font-weight: 600;
     line-height: 21px;
@@ -47,7 +52,7 @@
 .collection .collection-description {
     color: #1C1917;
     text-overflow: ellipsis;
-    font-family: var(--font-regular);
+    font-family: var(--sans-regular);
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;

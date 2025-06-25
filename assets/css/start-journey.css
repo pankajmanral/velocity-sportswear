@@ -29,18 +29,19 @@
 
 .start-journey .section-heading {
     color: #40513B;
+    font-family: var(--inter-bold);
 }
 
 .start-journey .section-description {
     color: #6C8F70;
+    font-family: var(--inter-regular);
 }
 
 .get-started-btn {
     padding: 16px 129px;
     background-color: #815CCE;
-    border-radius: 8px;
     color: var(--color-secondary);
-    font-family: var(--font-regular);
+    border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
     line-height: 25.2px;

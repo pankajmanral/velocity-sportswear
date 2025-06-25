@@ -10,8 +10,13 @@
     text-align: center;
 }
 
+.knowledge .section-heading{
+    font-family: var(--inter-bold);
+}
+
 .knowledge .section-description{
     margin-bottom: 40px;
+    font-family: var(--inter-regular);
 }
 
 .knowledge .knowledge-gallery-wrapper {
@@ -48,7 +53,7 @@
     color: #EEE;
     text-align: center;
     text-overflow: ellipsis;
-    font-family: var(--font-regular);
+    font-family: var(--inter-bold);
     font-size: 18px;
     font-weight: 600;
     line-height: 25.2px;
@@ -57,7 +62,7 @@
 .knowledge .card-role {
     color: #FFF;
     text-align: center;
-    font-family: var(--font-regular);
+    font-family: var(--inter-regular);
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;

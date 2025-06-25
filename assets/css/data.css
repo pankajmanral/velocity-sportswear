@@ -30,6 +30,8 @@
     max-width: 373px;
     cursor: pointer;
     transition: var(--transition-default);
+    padding: 15px 2px;
+    border-radius: 8px;
 }
 
 .data .data-card:hover{
@@ -44,7 +46,7 @@
 .data .card-heading {
     color: #222831;
     text-overflow: ellipsis;
-    font-family: var(--font-regular);
+    font-family: var(--inter-bold);
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -55,7 +57,7 @@
 .data .data-subheading {
     color: #818181;
     text-overflow: ellipsis;
-    font-family: var(--font-regular);
+    font-family: var(--inter-regular);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

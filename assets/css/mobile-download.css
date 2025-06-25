@@ -40,11 +40,13 @@
 .mobile-download .section-heading {
     color: #EEE;
     text-overflow: ellipsis;
+    font-family: var(--sans-bold);
 }
 
 .mobile-download .section-description {
     color: #EEE;
     text-overflow: ellipsis;
+    font-family: var(--sans-regular);
 }
 
 .mobile-download .download-options {
