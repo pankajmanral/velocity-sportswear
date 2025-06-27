@@ -24,11 +24,11 @@ header aside {
 
 header .logo {
     width: 100%;
-    max-width: 187px;
+    max-width: 11.6875rem;
     display: flex;
     align-items: center;
     overflow: hidden;
-    padding: 17px 0;
+    padding: 1.0625rem 0;
 }
 
 header .brand-logo {
@@ -43,8 +43,8 @@ header .nav-list {
 }
 
 header .nav-item {
-    padding: 8px 0;
-    margin-right: 12px;
+    padding: 0.5rem 0;
+    margin-right: 0.75rem;
 }
 
 header .nav-item:last-child {
@@ -54,12 +54,12 @@ header .nav-item:last-child {
 header .nav-link {
     position: relative;
     text-decoration: none;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     color: var(--color-primary);
     font-family: var(--sans-bold);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
-    line-height: 19.2px;
+    line-height: 1.2rem;
 }
 
 header .nav-link::after {
@@ -67,7 +67,7 @@ header .nav-link::after {
     content: '';
     bottom: 0;
     left: 0;
-    height: 1px;
+    height: 0.0625rem;
     background-color: var(--color-primary);
     width: 0;
     transition: var(--transition-default);
@@ -82,7 +82,7 @@ header .btn:hover::after {
 }
 
 header .nav-btn {
-    padding: 12px 24px;
+    padding: 0.75rem 1.5rem;
 }
 
 header .join-btn {
@@ -91,7 +91,12 @@ header .join-btn {
     border-color: var(--accent-color-pink);
 }
 
-@media (max-width:768px) {
+header .member-login-btn:hover{
+    background-color: var(--bg-primary);
+    border-color: var(--bg-primary);
+}
+
+@media (max-width:48rem) {
     header .nav-item {
         display: none;
     }

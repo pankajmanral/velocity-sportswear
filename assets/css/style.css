@@ -98,7 +98,8 @@ header,
 hgroup,
 menu,
 nav,
-section {
+section,
+img {
     display: block;
 }
 
@@ -161,9 +162,9 @@ table {
 
 .container {
     width: 100%;
-    max-width: 1248px;
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 78rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -174,8 +175,8 @@ table {
     justify-content: center;
     align-items: center;
     font-family: var(--inter-regular);
-    border-radius: 4px;
-    border: 1px solid var(--color-primary);
+    border-radius: 0.25rem;
+    border: 0.0625rem solid var(--color-primary);
     cursor: pointer;
     transition: var(--transition-default);
     text-wrap: nowrap;
@@ -187,16 +188,16 @@ table {
 }
 
 .section-heading {
-    font-size: 51px;
+    font-size: 3.1875rem;
     font-weight: 700;
-    line-height: 61.2px;
-    letter-spacing: -1.02px;
-    margin-bottom: 16px;
+    line-height: 3.825rem;
+    letter-spacing: -0.0638rem;
+    margin-bottom: 1rem;
 }
 
 .section-description {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
-    line-height: 25.2px;
-    margin-bottom: 32px;
+    line-height: 1.575rem;
+    margin-bottom: 2rem;
 }

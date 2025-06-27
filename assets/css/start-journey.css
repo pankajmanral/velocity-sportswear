@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 58px;
+    padding-left: 3.625rem;
     background-color: #ECFDF5;
 }
 
@@ -38,14 +38,14 @@
 }
 
 .get-started-btn {
-    padding: 16px 129px;
+    padding: 1rem 8.0625rem;
     background-color: #815CCE;
     color: var(--color-secondary);
-    border-radius: 8px;
-    font-size: 18px;
+    border-radius: 0.5rem;
+    font-size: 1.125rem;
     font-weight: 600;
-    line-height: 25.2px;
-    border: 1px solid #815CCE;
+    line-height: 1.575rem;
+    border: 0.0625rem solid #815CCE;
 }
 
 .get-started-btn:hover {
@@ -53,18 +53,19 @@
     border-color: #40513B;
 }
 
-@media (max-width:836px) {
+@media (max-width:52.25rem) {
     .start-journey .journey-content {
-        padding-left: 16px;
+        padding-left: 1rem;
     }
 }
 
-@media (max-width:769px) {
+@media (max-width:48.0625rem) {
     .start-journey .journey-wrapper {
         flex-direction: column;
     }
 
     .get-started-btn{
-        margin-bottom: 53px;
+        margin-bottom: 3.3125rem;
+        padding: 1rem 6.25rem;
     }
 }

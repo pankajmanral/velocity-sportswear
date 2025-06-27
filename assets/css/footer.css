@@ -1,6 +1,6 @@
 footer {
     position: relative;
-    padding: 48px 0;
+    padding: 3rem 0;
 }
 
 footer .footer-wrapper {
@@ -14,36 +14,36 @@ footer .footer-right {
 }
 
 footer .footer-brand-logo {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 footer .footer-slogan {
     color: #1C1917;
     font-family: var(--sans-regular);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
-    line-height: 25.2px;
+    line-height: 1.575rem;
 }
 
 footer .footer-right-wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: -20px;
+    margin: -1.25rem;
 }
 
 footer .footer-list {
     width: 100%;
-    max-width: 173px;
-    margin: 20px;
+    max-width: 10.8125rem;
+    margin: 1.25rem;
 }
 
 footer .footer-header {
     color: #1C1917;
     font-family: var(--sans-regular);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
-    line-height: 21px;
-    margin-bottom: 16px;
+    line-height: 1.3125rem;
+    margin-bottom: 1rem;
 }
 
 footer .footer-link {
@@ -51,26 +51,32 @@ footer .footer-link {
     display: flex;
     color: #A8A29E;
     font-family: var(--sans-regular);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 21px;
-    margin-bottom: 16px;
+    line-height: 1.3125rem;
+    margin-bottom: 1rem;
+    transition: var(--transition-default);
+}
+
+footer .footer-link:hover{
+    color: var(--color-primary);
+    font-family: var(--sans-bold);
 }
 
 footer .bottom-text {
     display: flex;
     justify-content: space-between;
-    margin-top: 32px;
-    padding-top: 32px;
-    border-top: 1px solid #E7E5E4;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 0.0625rem solid #E7E5E4;
 }
 
 footer .copyright {
     color: #A8A29E;
     font-family: var(--sans-regular);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
-    line-height: 19.2px;
+    line-height: 1.2rem;
 }
 
 footer .bottom-links {
@@ -82,23 +88,23 @@ footer .bottom-links>a {
     display: block;
     color: #1C1917;
     font-family: var(--sans-regular);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 1.3125rem;
 }
 
 footer .bottom-links>a:last-child {
-    margin-left: 16px;
+    margin-left: 1rem;
 }
 
-@media (max-width:526px) {
+@media (max-width:32.875rem) {
     footer .footer-wrapper {
         flex-direction: column;
     }
 
     footer .footer-left {
-        margin-bottom: 56px;
+        margin-bottom: 3.5rem;
     }
 
     footer .footer-right-wrapper {
@@ -110,8 +116,8 @@ footer .bottom-links>a:last-child {
 
     footer .footer-list {
         width: 100%;
-        max-width: 173px;
-        margin: 20px 0;
+        max-width: 10.8125rem;
+        margin: 1.25rem 0;
     }
 
     footer .bottom-text {
@@ -120,7 +126,7 @@ footer .bottom-links>a:last-child {
 
     footer .bottom-links {
         display: flex;
-        margin-top: 10px;
+        margin-top: 0.625rem;
     }
 
 

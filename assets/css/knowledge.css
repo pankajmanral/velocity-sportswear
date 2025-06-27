@@ -1,7 +1,7 @@
 .knowledge {
     position: relative;
     background-color: #222831;
-    padding: 144px 0;
+    padding: 9rem 0;
 }
 
 .knowledge .section-heading,
@@ -15,14 +15,14 @@
 }
 
 .knowledge .section-description{
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     font-family: var(--inter-regular);
 }
 
 .knowledge .knowledge-gallery-wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: -16px;
+    margin: -1rem;
     justify-content: center;
 }
 
@@ -31,15 +31,17 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 276px;
-    margin: 16px;
+    max-width: 17.25rem;
+    margin: 1rem;
+    cursor: pointer;
 }
 
 .knowledge .knowledge-img-wrapper {
     width: 100%;
-    max-width: 160px;
+    max-width: 10rem;
     overflow: hidden;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
+    border-radius: 100%;
 }
 
 .knowledge .avatar-img {
@@ -47,6 +49,11 @@
     height: auto;
     object-fit: cover;
     object-position: center;
+    transition: var(--transition-default);
+}
+
+.knowledge .knowledge-card:hover .avatar-img{
+    transform: scale(1.1);
 }
 
 .knowledge .card-name {
@@ -54,16 +61,16 @@
     text-align: center;
     text-overflow: ellipsis;
     font-family: var(--inter-bold);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
-    line-height: 25.2px;
+    line-height: 1.575rem;
 }
 
 .knowledge .card-role {
     color: #FFF;
     text-align: center;
     font-family: var(--inter-regular);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 1.3125rem;
 }

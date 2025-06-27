@@ -1,14 +1,14 @@
 .indoor {
     position: relative;
     background-color: #ECFDF5;
-    padding: 120px 0;
+    padding: 7.5rem 0;
 }
 
 .indoor .indoor-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 105px;
+    padding: 0 6.5625rem;
 }
 
 .indoor .indoor-left-content .indoor .indoor-right-content {
@@ -17,7 +17,7 @@
 
 .indoor .indoor-text-content {
     width: 100%;
-    max-width: 524px;
+    max-width: 32.75rem;
 }
 
 .indoor .section-heading {
@@ -31,13 +31,13 @@
 }
 
 .see-collection-btn {
-    padding: 16px 97.5px;
+    padding: 1rem 6.0938rem;
     font-family: var(--sans-regular);
     color: var(--color-secondary);
     background-color: #65A30D;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     border-color: #ECFDF5;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .see-collection-btn:hover {
@@ -47,13 +47,13 @@
 .indoor .indoor-right-content {
     width: 100%;
     background-color: #DCFCE7;
-    margin-left: 48px;
-    padding: 48px;
-    border-radius: 48px;
+    margin-left: 3rem;
+    padding: 3rem;
+    border-radius: 3rem;
 }
 
 .indoor .indoor-card {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .indoor .indoor-card:last-child {
@@ -61,41 +61,41 @@
 }
 
 .indoor .indoor-icon {
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 
 .indoor .card-title {
     color: #064E3B;
     text-overflow: ellipsis;
     font-family: var(--sans-bold);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
-    line-height: 25.2px;
-    margin-bottom: 8px;
+    line-height: 1.575rem;
+    margin-bottom: 0.5rem;
 }
 
 .indoor .card-description {
     color: #059669;
     text-overflow: ellipsis;
     font-family: var(--sans-regular);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 1.3125rem;
 }
 
-@media (max-width:1025px) {
+@media (max-width:64.0625rem) {
     .see-collection-btn {
-        padding: 16px 35.5px;
+        padding: 1rem 2.2188rem;
     }
 }
 
-@media (max-width:835px) {
+@media (max-width:52.1875rem) {
     .indoor .indoor-wrapper {
         padding: 0;
     }
 }
 
-@media (max-width:789px) {
+@media (max-width:49.3125rem) {
     .indoor .indoor-wrapper {
         flex-direction: column;
         padding: 0;
@@ -103,7 +103,7 @@
 
     .see-collection-btn {
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 
     .indoor .indoor-right-content {
@@ -113,8 +113,8 @@
     }
 
     .indoor .indoor-card {
-        margin-bottom: 24px;
-        padding: 24px;
+        margin-bottom: 1.5rem;
+        padding: 1.5rem;
     }
 
 
